@@ -1,0 +1,80 @@
+{% load static %}
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Daniel Bellfield - Software Engineer</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="{% static 'spring_water_app/css/style.css'%}" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<a href="{% url 'index' %}" class="logo"><strong>Daniel Bellfield</strong>- Software Engineer</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="{% url 'index' %}">Home</a></li>
+					<li><a href="mailto:dnlbellfield@gmail.com">Send Email</a></li>
+					<li><a href=" https://pdfhost.io/v/8AYCVWPwU_Daniel_Bellfield_Resume_2021.pdf" target="_blank">Resume</a></li> 
+					<li><a href="https://github.com/dnlbellfield" target="_blank">GitHub</a></li>
+					<li><a href="https://chromium-review.googlesource.com/q/status:merged+%253Cbellfield%253E" target="_blank">Google Code Review</a></li> 
+				</ul>
+			</nav>
+
+		<!-- Main -->
+			<section id="main">
+				<div class="inner">
+					<div class="image fit">
+						<img src="{% static 'spring_water_app/img/pic11.jpg'%}" alt="" />
+					</div>
+					<header>
+						<h2>Experience</h2>
+						<h3>Chrome Contributor, Google, Dec 2020 - Present </h3>
+					</header>
+					<p>
+						Worked alongside the Google devTools team and identified issues, fixed bugs, and used Google’s code review system. 
+						Worked on Google’s open source project Chromium and helped improve a large code base.
+						Read previous code changes and discussed best practice with the Google team and other contributors. Fixed a bug that caused a text overlap in the throttling section of DevTools Settings.</p>
+					<header>
+						<h3>Open Source Contribution:</h3>
+					</header>
+					<p>Fixed text overlap in the
+						throttling section of DevTools Settings. <a href="https://chromium-review.googlesource.com/c/devtools/devtools-frontend/+/2611909/">(merged code)</a> </p>
+				
+					<header>
+						<h2>Education</h2>
+					</header>
+					<p>California State University Dominguez Hills, Carson, CA<br>
+						B.A. - Digital Media Arts  -2014
+				 	</p>
+					 <header>
+						<h2>Technologies</h2>
+					</header>
+					<p>JavaScript, HTML, CSS, Git, Django, Python, Test Driven Development. </p>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="copyright">
+				<p>Daniel Bellfield 2021</p>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+		<!-- {% static 'website/'%} -->
+			<script src="{% static 'website/new_js/jquery.min.js'%}"></script>
+			<script src="{% static 'website/new_js/jquery.scrolly.min.js'%}"></script>
+			<script src="{% static 'website/new_js/skel.min.js'%}"></script>
+			<script src="{% static 'website/new_js/util.js'%}"></script>
+			<script src="{% static 'website/new_js/main.js'%}"></script>
+
+	</body>
+</html>

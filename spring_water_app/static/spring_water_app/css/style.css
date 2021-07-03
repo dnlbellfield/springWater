@@ -4555,9 +4555,24 @@
 			margin-top: 3%;
 			padding-left: 5%;
     	padding-right: 5%;
-    }
+		}
+			/* border: none;
+			color: white;
+			padding: 15px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		} */
+		/* .buttonStyle {
+			width : 60px;
+			height : 20px;
+		 -moz-border-radius: 2px;
+			-webkit-border-radius: 2px;
+			} */
 	/*This should make them change their color when they are hovered*/
 	/* li .button :hover {
 			 background: rgb(249, 255, 249);
-	} 
-  */
+	} */

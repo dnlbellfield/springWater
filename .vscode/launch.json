@@ -14,11 +14,6 @@
       ],
       "django": true
     },
-    {
-      "type": "pwa-chrome",
-      "request": "launch",
-      "name": "Open index.html",
-      "file": "/Users/johnbellfield/springWater/spring_water_app/templates/spring_water_app/index.html"
-    }
+    
   ]
 }

@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'spring_water_app',
+    'whitenoise.runserver_nostatic',
 ]
 
 MIDDLEWARE = [
